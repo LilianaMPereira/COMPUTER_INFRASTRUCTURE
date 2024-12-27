@@ -2,9 +2,8 @@ name: Daily Weather Data Automation
 
 on:
   schedule:
-    # Runs at 10am daily
     - cron: '0 10 * * *'
-  workflow_dispatch: # Allows manual triggering of the workflow
+  workflow_dispatch:
 
 jobs:
   fetch-weather-data:
@@ -21,11 +20,13 @@ jobs:
         chmod +x weather.sh
         ./weather.sh
 
-    # Step 3: Commit and push new data
+    # Step 3: Commit and Push Changes
     - name: Commit and Push Changes
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add data/weather/
         git commit -m "Daily weather data update: $(date)"
-        git push
+        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} HEAD:main
