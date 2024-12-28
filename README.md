@@ -1,6 +1,6 @@
-# Computer Infrastructure
+# Computer Infrastructure Project
 
-This repository contains a series of tasks and a project demonstrating the application of computer infrastructure concepts using command-line tools and automation scripts. The repository is divided into two main sections: **Tasks** and **Project**.
+This repository contains a series of tasks and a project demonstrating the application of computer infrastructure concepts using command-line tools, scripting, and automation. The repository is divided into two main sections: **Tasks** and **Project**.
 
 ---
 
@@ -9,10 +9,15 @@ This repository contains a series of tasks and a project demonstrating the appli
 1. [Introduction](#introduction)
 2. [File Structure](#file-structure)
 3. [Tasks](#tasks)
-   - [Task 1: Directory Structure](#task-1-directory-structure)
+   - [Task 1: Create Directory Structure](#task-1-create-directory-structure)
    - [Task 2: Timestamps](#task-2-timestamps)
-   - [Task 3: Bash Scripting](#task-3-bash-scripting)
-   - [Task 4: Data Download Automation](#task-4-data-download-automation)
+   - [Task 3: Formatting Timestamps](#task-3-formatting-timestamps)
+   - [Task 4: Create Timestamped Files](#task-4-create-timestamped-files)
+   - [Task 5: Download Today's Weather Data](#task-5-download-todays-weather-data)
+   - [Task 6: Timestamp the Data](#task-6-timestamp-the-data)
+   - [Task 7: Write the Script](#task-7-write-the-script)
+   - [Task 8: Notebook](#task-8-notebook)
+   - [Task 9: pandas](#task-9-pandas)
 4. [Project](#project)
    - [Weather Data Automation](#weather-data-automation)
 5. [Conclusion](#conclusion)
@@ -42,47 +47,15 @@ This repository showcases various computer infrastructure techniques applied to 
 
 ## **Tasks**
 
-### **Task 1: Directory Structure**
-
-#### **Problem Statement**
-Create a structured directory layout using the command line to organize data and scripts effectively.
-
-#### **Techniques**
-- Utilized `mkdir` to create directories.
-- Employed `ls` and `tree` commands to verify the structure.
-
----
-
+### **Task 1: Create Directory Structure**
 ### **Task 2: Timestamps**
-
-#### **Problem Statement**
-Generate a timestamp and save it to a file to record the execution time of scripts.
-
-#### **Techniques**
-- Used the `date` command to capture the current date and time.
-- Redirected output to a file using `>`.
-
----
-
-### **Task 3: Bash Scripting**
-
-#### **Problem Statement**
-Develop a bash script to download weather data from a specified source.
-
-#### **Techniques**
-- Created `weather.sh` to fetch weather information from the Athenry weather station.
-- Implemented error handling and data validation within the script.
-
----
-
-### **Task 4: Data Download Automation**
-
-#### **Problem Statement**
-Automate the execution of the bash script to run at a scheduled time daily.
-
-#### **Techniques**
-- Configured a GitHub Actions workflow (`weather-data.yml`) to run `weather.sh` daily at 10 AM.
-- Automated the process of fetching and storing weather data.
+### **Task 3: Formatting Timestamps**
+### **Task 4: Create Timestamped Files**
+### **Task 5: Download Today's Weather Data**
+### **Task 6: Timestamp the Data**
+### **Task 7: Write the Script**
+### **Task 8: Notebook**
+### **Task 9: pandas**
 
 ---
 
@@ -106,13 +79,22 @@ Integrate the tasks into a cohesive project that automates weather data retrieva
 
 ## **Conclusion**
 
-This repository provides a comprehensive guide to applying computer infrastructure concepts using command-line tools and automation scripts. Through a combination of scripting and automation, it equips users with the skills to manage and automate data retrieval tasks effectively.
+This project demonstrates the integration of command-line operations, scripting, and data analysis to automate the retrieval and examination of weather data. 
 
 ---
 
-## Contact
+## **References**
 
-For any inquiries or collaboration opportunities, please contact g00411560@atu.ie
+- [pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+- [GitHub .gitignore Templates](https://github.com/github/gitignore)
+- [Monthly Data - Met Éireann](https://www.met.ie/climate/available-data/monthly-data)
+- [Today's Weather Athenry - data.gov.ie](https://data.gov.ie/dataset/todays-weather-athenry)
 
-Thank you :)
+---
+
+## **Contact**
+
+For any inquiries or collaboration opportunities, please contact [g00411560@atu.ie](mailto:g00411560@atu.ie).
+
+Thank you! 😊
 
