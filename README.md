@@ -110,14 +110,6 @@ This repository provides a comprehensive guide to applying computer infrastructu
 
 ---
 
-## **References**
-
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Bash Scripting Guide](https://www.gnu.org/software/bash/manual/bash.html)
-- [Command Line Basics](https://www.learnshell.org/)
-
----
-
 ## Contact
 
 For any inquiries or collaboration opportunities, please contact g00411560@atu.ie
